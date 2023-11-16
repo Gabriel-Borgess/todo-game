@@ -1,0 +1,173 @@
+body {
+    background: url('https://images4.alphacoders.com/133/1333240.png') center/cover fixed;
+    margin: 0;
+    padding: 0;
+    font-family: "Orbitron", sans-serif;
+    color: #fff;
+}
+
+/* Adicione essas regras de estilo para o círculo do nível */
+#levelCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #3498db; /* Cor de fundo do círculo */
+    color: #ffffff; /* Cor do texto */
+    font-family: 'FuturisticFont', sans-serif; /* Substitua 'FuturisticFont' pela fonte futurista desejada */
+    font-size: 36px; /* Tamanho da fonte */
+    margin-bottom: 20px; /* Espaçamento inferior para separar do restante do conteúdo */
+}
+
+#userLevel {
+    font-weight: bold;
+}
+
+.wrapper {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.task-input {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.task-input ion-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #555;
+    font-size: 25px;
+    transform: translateY(-50%);
+}
+
+.task-input input {
+    width: calc(100% - 50px);
+    height: 40px;
+    outline: none;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #555;
+    background: transparent;
+    color: #fff;
+    padding-left: 40px;
+}
+
+.task-input input::placeholder {
+    color: #888;
+}
+
+.task-box {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    background: rgba(0, 0, 0, 0.6);
+    border: 1px solid #444;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background 0.2s ease;
+}
+
+.task:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.task label {
+    display: flex;
+    align-items: center;
+}
+
+.task label input {
+    margin-right: 10px;
+}
+
+.task p {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.task-menu {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.task:hover .task-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-menu li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.task-menu li:hover {
+    background: #555;
+}
+
+.progress-bar {
+    background: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.progress {
+    width: 0;
+    height: 8px;
+    background: linear-gradient(90deg, #ff9f00, #ff00d4);
+    border-radius: 4px;
+    transition: width 0.5s ease;
+}
+
+.level {
+    color: #ccc;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.task .settings {
+    display: flex;
+    align-items: center;
+}
+
+.task .settings i {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.task-menu {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.task:hover .task-menu {
+    display: flex;
+    flex-direction: column;
+}
