@@ -1,7 +1,7 @@
 # Todo RPG Game
 
 O Todo RPG Game é uma aplicação simples baseada em tarefas (to-do list) com um toque de gamificação. Ele permite que você gerencie suas tarefas diárias enquanto ganha experiência e sobe de nível, tornando a realização de tarefas mais divertida e motivadora.
-
+![Site](utils/github.png)
 ## Funcionalidades Principais
 
 - Adicionar tarefas à lista do Centro de Comando.
