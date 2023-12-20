@@ -20,5 +20,5 @@ O Todo RPG Game é uma aplicação simples baseada em tarefas (to-do list) com u
 
 ## Instalação
 
-1. Clone o repositório: `git clone https://github.com/Gabriel-Borgess/mytaskrpg.git`
+1. Clone o repositório: `git clone https://github.com/Gabriel-Borgess/todo-game.git`
 2. Abra o arquivo `index.html` em um navegador da web.
